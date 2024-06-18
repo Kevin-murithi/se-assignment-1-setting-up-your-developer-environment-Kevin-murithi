@@ -35,14 +35,32 @@ This assignment aims to familiarize you with the tools and configurations necess
       ![alt text](<Screenshot 2024-06-18 233641.png>)
       
       Run the installer and follow the setup instructions.
-      
+
       ![alt text](<Screenshot 2024-06-19 001349.png>)
 
 3. Set Up Version Control System:
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
 
+      Download and install Git from Git. and run the installer setup.
+      ![alt text](<Screenshot 2024-06-19 002240.png>)
+
+      ![alt text](<Screenshot 2024-06-19 002454.png>)
+      Create a GitHub account at GitHub by entering your email in the prompt below
+
+      ![alt text](<Screenshot 2024-06-19 002748.png>)
+
+      Initialize a Git repository for your project and make your first commit.
+
+
 4. Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
+
+      Visit the Python Downloads page and download the latest version.
+      ![alt text](<Screenshot 2024-06-19 003148.png>)
+      Run the installer and ensure you check the option to add Python to your PATH.
+      ![alt text](<Screenshot 2024-06-19 003245.png>)
+      Verify the installation by running command prompt as administrator and using the "python --version" command
+      ![alt text](<Screenshot 2024-06-19 003342.png>)
 
 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
