@@ -49,7 +49,38 @@ This assignment aims to familiarize you with the tools and configurations necess
 
       ![alt text](<Screenshot 2024-06-19 002748.png>)
 
-      Initialize a Git repository for your project and make your first commit.
+      Initialize a Git repository for your project and make your first commit.(https://github.com/Kevin-murithi/sample_project.git)
+
+      open gitbash and key in the following commands
+
+      navigate to your projects folder
+      ![alt text](<Screenshot 2024-06-19 114007.png>)
+      using a text editor create a python script and save as python_sample.py in the same directory as your project
+      ![alt text](<Screenshot 2024-06-19 114052.png>)
+      go back to git bash and run your python script to create the files
+      ![alt text](<Screenshot 2024-06-19 114309.png>)
+      initialize Git using "git init" command and add your project files to the git staginng area  using "git add." then commit the files with a message using "git commit -m"
+      ![alt text](<Screenshot 2024-06-19 114442.png>)
+
+      Create a New Repository on GitHub
+
+      Go to GitHub and log in to your account.
+      Click on the "New" button to create a new repository.
+      Fill in the repository details:
+      Repository name: sample_project
+      Description: Sample project to demonstrate Git initialization
+      Public or Private: Choose according to your preference
+
+      ![alt text](<Screenshot 2024-06-19 114611.png>)
+      Get the Repository URL
+
+      in your gitbash terminal, link your local repository to the GitHub repository using the URL you copied using "git remote add origin"
+
+      ![alt text](<Screenshot 2024-06-19 115055.png>)
+
+      push your local repository to github using "git push -u origin master"
+
+      ![alt text](<Screenshot 2024-06-19 115614.png>)
 
 
 4. Install Necessary Programming Languages and Runtimes:
@@ -65,14 +96,73 @@ This assignment aims to familiarize you with the tools and configurations necess
 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
 
+      run command prompt as administrator and enter the "python -m ensurepip --upgrade" command to install pip
+      ![alt text](<Screenshot 2024-06-19 101043.png>)
+      check if the package has been successfully installed using "pip --version" command
+      ![alt text](<Screenshot 2024-06-19 101057.png>)
+
 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
+
+      Choose the appropriate installer for Windows from the MySQL Downloads page.
+      ![alt text](<Screenshot 2024-06-19 101528.png>)
+      Follow the installation instructions and configure your MySQL instance.
+      ![alt text](<Screenshot 2024-06-19 102102-1.png>)
+      ![alt text](<Screenshot 2024-06-19 102122-1.png>)
+      MySQL has successfully been installed. Run the configurator to customize the environment.
+      ![alt text](<Screenshot 2024-06-19 102250-1.png>)
+      choose where MySQL will be stored.
+      ![alt text](<Screenshot 2024-06-19 102321-1.png>)
+      select the local host port number that MySQL will run on.
+      ![alt text](<Screenshot 2024-06-19 102341-1.png>)
+      set up a root password and create a user
+      ![alt text](<Screenshot 2024-06-19 102510-1.png>)
+      ![alt text](<Screenshot 2024-06-19 102539-1.png>)
+      grant neccessary permissions
+      ![alt text](<Screenshot 2024-06-19 102559-1.png>)
+      import sample databases(optional)
+      ![alt text](<Screenshot 2024-06-19 102613-1.png>)
+      click execute to complete the setup
+      ![alt text](<Screenshot 2024-06-19 102637-1.png>)
+      the configuration is now complete
+      ![alt text](<Screenshot 2024-06-19 102704-1.png>)
+      Verify the installation by connecting to the MySQL server using the command line
+      use cd to navigate to the bin folder of MySQL in your program files then use the "mysqld --version" to check if it is running
+      ![alt text](image.png)
+
 
 7. Set Up Development Environments and Virtualization (Optional):
    Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
 
 8. Explore Extensions and Plugins:
    Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
+
+      in visual studio code press ctrl+shift+x to navigate to the extensions section. install the extensions that match your preferences and projects.
+      ![alt text](<Screenshot 2024-06-19 105208.png>)
+
+
+Challenges encountered along the way.
+      1. Installation Issues
+            Difficulty installing software packages like Git, Python, or MySQL due to compatibility issues, download errors, or permission problems.
+
+         Strategies.
+            Ensure you're downloading the correct version for your operating system.
+            Run installers with administrative privileges (right-click > "Run as administrator").
+            Check system requirements and ensure your machine meets them.
+            Verify internet connectivity and try alternative download sources if available.
+            Consult official documentation or community forums for troubleshooting tips.
+
+      2.Configuration Errors
+            Incorrect configuration of tools like Git, IDEs, or database servers, leading to connectivity issues or functionality gaps.
+
+         Strategies.
+            Refer closely to official documentation and follow step-by-step guides.
+            Double-check configuration settings, such as paths, environment variables, and network configurations.
+            Use configuration wizards or setup scripts provided by software packages whenever possible.
+            Test configurations incrementally to isolate and resolve issues one step at a time.
+            Seek help from online communities or forums for specific configuration problems.
+
+
 
 9. Document Your Setup:
     Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
